@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm a part-time software engineer at [Qualtrics](https://qualtrics.com).
 
-### More Information
+I'm also working on my Master's in computer science at [BYU](https://byu.edu).
 
-A place to include any other types of information that you'd like to include about yourself.
+### Contact
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[kimbo@kimballleavitt.com](mailto:kimbo@kimballleavitt.com)
