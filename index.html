@@ -2,28 +2,10 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<h1>Blog Posts</h1>
+{% for post in site.posts %}
+  <p><span class="data">{{ post.date | date: "%B %e, %Y" }}</span> - <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+{% endfor %}
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-      <div class="tags">
-        <span>Tags: </span>
-        {% for tag in post.tags %}
-          <a class="tag {{tag}}" href="/tags/#{{tag | slugify}}">{{tag}}</a>
-        {% endfor %}
-      </div>
-
-
-      <div class="date">
-        <span class="data">{{ post.date | date: "%B %e, %Y" }}</span>
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Continue reading</a>
-      </div>
-
-    </article>
-  {% endfor %}
-</div>
+<h1>Open Source Projects</h1>
+<p><a href="https://github.com/byu-imaal/dohjs">dohjs</a>: a DNS over HTTPS client library for DNS queries in the browser</p>

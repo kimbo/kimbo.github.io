@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Summary of learning foreign languages in my life
-tags: [languages,spanish,german,bio]
 ---
 
 What sparked this post: the other day I set my browser's default language to Spanish to test something out (honestly don't even remember what it was).
