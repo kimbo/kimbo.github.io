@@ -10,4 +10,4 @@ I'm also working on my Master's in computer science at [BYU](https://byu.edu).
 
 ### Contact
 
-[kimbo@kimballleavitt.com](mailto:kimbo@kimballleavitt.com)
+[k@httpstat.net](mailto:kimbo@k@httpstat.net)
